@@ -1,0 +1,3 @@
+markdown: redcarpet
+baseurl: /Ayman-Website
+exclude: ['README.md']

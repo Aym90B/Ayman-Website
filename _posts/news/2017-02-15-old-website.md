@@ -1,5 +1,5 @@
 ---
-layout: news
+layout: news-article
 title: new website for a company
 meta: this is my first business website
 source: http://www.google.com

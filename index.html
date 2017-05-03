@@ -4,3 +4,18 @@ layout: default
 <h1>Source</h1>
 <p>Lots of websites by Source!</p>
 
+<h2>Types Of Websites</h2>
+{% for System in site.categories.project-types %}
+{{project.title}}
+{% endfor %}
+<h2>Recently Designed Websites</h2>
+
+<ul>
+	{% for news in site.categories.recently-designed limit:2 %}
+    <li>
+    	<a href="">{{news.title}}</a>
+        <p>{{news.meta}}</p>
+    </li>
+    {% endfor %}
+</ul>
+
